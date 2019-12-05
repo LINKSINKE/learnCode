@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="Description" content="table标签的使用">
+    <title>HTML标签</title>
+</head>
+
+<body>
+    <table border="1" width="600" height="100">
+        <tr>
+            <td>编号</td>
+            <td>性别</td>
+            <td>年龄</td>
+            <td>分数</td>
+            <td>报考的大学</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>张三</td>
+            <td>18</td>
+            <td>599</td>
+            <td>暨南大学</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>李四</td>
+            <td>19</td>
+            <td rowspan="3" colspan="2" align="center" valign="center">没有相关信息</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>王五</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>赵六</td>
+            <td>18</td>
+        </tr>
+    </table>
+    <hr />
+    <table border="1" width="600" height="100" style="text-align: center;" cellpadding="0" cellspacing="0">
+        <caption><h3>高考录取大学去向</h3></caption>
+        <thead>
+            <th>编号</th>
+            <th>性别</th>
+            <th>年龄</th>
+            <th>分数</th>
+            <th>报考的大学</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>张三</td>
+                <td>18</td>
+                <td>599</td>
+                <td>暨南大学</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>李四</td>
+                <td>19</td>
+                <td>590</td>
+                <td>中央民族大学</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>王五</td>
+                <td>19</td>
+                <td>585</td>
+                <td>西南财经大学</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>赵六</td>
+                <td>18</td>
+                <td>620</td>
+                <td>武汉科技大学</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3" align="left">有4人录取大学,情况可以</td>
+            <td colspan="2" align="right">其他的学生有考虑留学和复读的.</td>
+        </tfoot>
+    </table>
+</body>
+
+</html>
